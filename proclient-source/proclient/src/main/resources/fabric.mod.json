@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "proclient",
+  "version": "${version}",
+  "name": "Pro Client",
+  "description": "Lightweight dark-UI client: Entity ESP, Reach, Flight, HUD and Click GUI.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.proclient.ProClient"]
+  },
+  "mixins": [
+    { "config": "proclient.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

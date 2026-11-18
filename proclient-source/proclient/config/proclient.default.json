@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "modules": {
+    "Reach": {
+      "enabled": false,
+      "key": -1,
+      "settings": { "Reach Distance": 4.5 }
+    },
+    "Entity ESP": {
+      "enabled": false,
+      "key": -1,
+      "settings": {
+        "ESP Range": 64.0,
+        "Outlines": true,
+        "Names": true,
+        "Distance": true,
+        "Health": true,
+        "Show Players": true,
+        "Players Color": 0.0,
+        "Show Mobs": true,
+        "Mobs Color": 28.0,
+        "Show Animals": true,
+        "Animals Color": 140.0,
+        "Show Items": true,
+        "Items Color": 200.0
+      }
+    },
+    "Flight": {
+      "enabled": false,
+      "key": -1,
+      "settings": { "Flight Speed": 2.0 }
+    },
+    "HUD": {
+      "enabled": true,
+      "key": -1,
+      "settings": {
+        "FPS Counter": true,
+        "Coordinates": true,
+        "XYZ (precise)": false,
+        "Biome": true,
+        "Entity Counter": true,
+        "Module List": true,
+        "Background": true,
+        "Position": "Top Left",
+        "Offset X": 4.0,
+        "Offset Y": 4.0,
+        "HUD Scale": 1.0
+      }
+    },
+    "ClickGUI": {
+      "key": 344,
+      "settings": {
+        "Accent Color": 205.0,
+        "Animation Speed": 1.0,
+        "Dim Background": true
+      }
+    }
+  }
+}
